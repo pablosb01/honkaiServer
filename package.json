@@ -9,8 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "build": "npm i --save"
+    "start": "npm i && node app.js",
+    "build": "npm \"no build command\""
   },
   "author": "",
   "license": "ISC"
