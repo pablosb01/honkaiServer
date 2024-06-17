@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const cors = require('cors')
+
+app.use(cors())
 
 async function honkaiInfo(user) {
     const res = await fetch(`https://api.mihomo.me/sr_info_parsed/${user}?lang=es`);
