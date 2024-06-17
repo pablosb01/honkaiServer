@@ -10,7 +10,7 @@ async function honkaiInfo(user) {
 app.get("/honkai/:user", async (req, res) => {
     const { user } = req.params;
     try {
-        const info = await honkaiInfo(id)
+        const info = await honkaiInfo(user)
         res.send(info);
     } catch (error) {
         res.send(error);
