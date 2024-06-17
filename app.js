@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 async function honkaiInfo(user) {
-    const res = await fetch(`htpps://api.mihomo.me/sr_info_parsed/${user}`);
+    const res = await fetch(`https://api.mihomo.me/sr_info_parsed/${user}?lang=es`);
     const data = await res.json();
     return data;
 }
