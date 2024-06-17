@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm i && node app.js",
-    "build": "npm \"no build command\""
+    "build": "echo \"no build command\""
   },
   "author": "",
   "license": "ISC"
