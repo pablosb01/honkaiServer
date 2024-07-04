@@ -4,7 +4,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-/* async function honkaiInfo(user) {
+async function honkaiInfo(user) {
     const res = await fetch(`https://api.mihomo.me/sr_info_parsed/${user}?lang=es`);
     const data = await res.json();
     return data;
@@ -20,9 +20,9 @@ app.get("/honkai/:user", async (req, res) => {
     }
 });
 
-app.listen(3000, () => console.log('running')) */
+app.listen(3000, () => console.log('running'))
 
-async function honkaiInfo(user, lang) {
+/* async function honkaiInfo(user, lang) {
     const res = await fetch(`https://api.mihomo.me/sr_info_parsed/${user}?lang=${lang}`);
     const data = await res.json();
     return data;
@@ -38,4 +38,4 @@ app.get("/honkai/:user/:lang", async (req, res) => {
     }
 });
 
-app.listen(3000, () => console.log('running'))
+app.listen(3000, () => console.log('running')) */
